@@ -17,9 +17,10 @@ These agent commands provide a structured approach to software development, taki
 To use these agents, start with your requirements and trigger the software architect agent:
 
 ```
-I want you to implement a basic clone of sentry called "minisentry". It allows sending of error reports from javascript web only, that's all we need to do. It has multiple projects and lets users sign in.
+I want you to implement a basic clone of <X> called "<X-poc>". It allows <your features here>.
 
-In terms of tech stack use go with chi on the server, and for the frontend i want you to use tanstack router + query with react. For design use tailwind but make sure to make nice components too so it's not a mess.
+In terms of tech stack use python on the server, and for the frontend i want you to use react.
+For design use tailwind but make sure to make nice components too so it's not a mess.
 ```
 
 Then trigger the main orchestrator:
